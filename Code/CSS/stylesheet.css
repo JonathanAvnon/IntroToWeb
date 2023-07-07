@@ -13,8 +13,8 @@ a {color:darkred;}
 header {text-align: center; background-color:darkolivegreen; color: antiquewhite; padding: 30px;}
 section {padding: 10px; border: 50px; margin: 20px;}
 footer {margin-bottom: 50px; margin-left: 20px;}
-img {width: 200px; height: 300x; border-radius: 50%;}
-
+#profile-picture {width: 200px; height: 300x; border-radius: 50%;}
+#hero {background-image: url(/Pics/HeroImage2.jpg)}
 
 
 

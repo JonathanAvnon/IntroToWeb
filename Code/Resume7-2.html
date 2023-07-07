@@ -6,19 +6,23 @@
     <link rel="stylesheet" href="CSS/stylesheet.css"/>
     </head>
   <body>
-    <header>
-        <img
-      src="ResumeImage.png"
-      alt="Profile Image"
-    />
-    <h1>Jonathan Avnon</h1>
-    <p>Full Time Student at Code Space</p>
-    <aside>
+        <header>
+            <div class="hero">
+            <img
+            id="profile-picture"
+          src="ResumeImage.png"
+          alt="Profile Image"
+        />
+        <h1>Jonathan Avnon</h1>
+        <p>Full Time Student at Code Space</p>
+        <aside>
+      <aside>
+    </div>
     </header>
     <picture>
-        <sourcemedia="(max-width: 650px) src="SmallProfile.png">
-        <sourcemedia="(max-width: 1000px) src="LargeProfile.png" >
-        <imgsrc="ProfileImgLarge.png" alt="profile pic">
+      <source srcset="./Pics/SmallProfile.png" media="(max-width: 650px)">
+      <source srcset="./Pics/LargeProfile.png"media="(max-width: 1000px)">
+      <img src="./Pics/ProfileImgLarge.png">
       </picture>
     <section>
     <ul>
