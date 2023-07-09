@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Jonathan Avnon Resume</title>
-    <metaname="viewport"content="width=device-width, initial-scale="1.0">
+    <meta name="viewport" content="width = device-width, inital-scale=1.0">
     <link rel="icon" type="image/x-icon" href="ResumeImage.png" />
     <link rel="stylesheet" href="CSS/stylesheet.css"/>
     </head>
+
   <body>
-        <header>
-            <div class="hero">
-            <img
-            id="profile-picture"
-          src="ResumeImage.png"
-          alt="Profile Image"
-        />
-        <h1>Jonathan Avnon</h1>
-        <p>Full Time Student at Code Space</p>
-        <aside>
-    </div>
-    </header>
+    <section id="hero">
+            <div class="container">
+                    <div class="hero-text">
+                      <h1>Jonathan Avnon</h1>
+                      <p>Student at Code Space</p>
+                  </div>
+            </div>
+        </section>
+
+    <picture>
+        <div id="ProfilePic">
+      <source srcset="./Pics/SmallProfile.png" media="(max-width: 650px)">
+      <source srcset="./Pics/LargeProfile.png"media="(max-width: 1000px)">
+      <img src="./Pics/ProfileImgLarge.png" style="width: 350px; height:auto; border-radius: 5%;"> 
+     </div>
+        </section>
+      </picture>
+
     <section>
     <ul>
       <li><a href="#Education"> Education</a></li>

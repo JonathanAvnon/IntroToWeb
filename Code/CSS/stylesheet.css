@@ -23,10 +23,17 @@ footer {margin-bottom: 50px; margin-left: 20px;}
   padding: 50px;
   font-size: large;
 }
-picture {size: width 100px;}
+#ProfilePic { text-align:left; padding-left: 100px;}
 
-
-
+/* ==== MOBILE ===== */
+@media screen and (max-width: 425px) {
+  h1 {font-size: 1.6em;}
+  p {font-size: 0.8em}
+  h2 {font-size: 1.5em}
+  h3 {font-size: 1.2em}
+  #hero {width:100%;}
+  
+}
 
 
 
